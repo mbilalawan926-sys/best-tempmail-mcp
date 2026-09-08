@@ -1,0 +1,28 @@
+{
+  "name": "best-tempmail-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Best Temp Mail. Lets an AI assistant create disposable inboxes, wait for email, and read verification codes.",
+  "keywords": ["mcp", "model-context-protocol", "temp-mail", "disposable-email", "otp", "verification-code", "claude", "ai-agent"],
+  "homepage": "https://best-tempmail.com/api",
+  "license": "MIT",
+  "author": "Best Temp Mail",
+  "type": "module",
+  "bin": { "best-tempmail-mcp": "./dist/index.js" },
+  "main": "./dist/index.js",
+  "files": ["dist", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "best-tempmail": "^1.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "repository": { "type": "git", "url": "https://github.com/mbilalawan926-sys/best-tempmail-mcp" }
+}
