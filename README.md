@@ -1,5 +1,10 @@
 # best-tempmail-mcp
 
+<!-- The line below is required by the Official MCP Registry. It proves this
+     npm package and the registry entry belong to the same owner. Do not
+     remove it. -->
+mcp-name: io.github.mbilalawan926-sys/best-tempmail-mcp
+
 MCP server for [Best Temp Mail](https://best-tempmail.com/api). Gives an AI assistant its own disposable email inboxes, so it can sign up for things, wait for the mail, and read the verification code back to you.
 
 > "Create a temp email, sign me up for that newsletter, and tell me the confirmation code."

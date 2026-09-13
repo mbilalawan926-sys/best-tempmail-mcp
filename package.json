@@ -1,6 +1,6 @@
 {
   "name": "best-tempmail-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Best Temp Mail. Lets an AI assistant create disposable inboxes, wait for email, and read verification codes.",
   "keywords": ["mcp", "model-context-protocol", "temp-mail", "disposable-email", "otp", "verification-code", "claude", "ai-agent"],
   "homepage": "https://best-tempmail.com/api",
